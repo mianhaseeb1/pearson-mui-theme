@@ -20,6 +20,7 @@ import ChevronLeft from './ChevronLeft';
 import ChevronRight from './ChevronRight';
 import ChevronUp from './ChevronUp';
 import ClockOutlined from './ClockOutlined';
+import Copy from './Copy';
 import Collapse from './Collapse';
 import Correct from './Correct';
 import Delete from './Delete';
@@ -106,6 +107,7 @@ const icons = new Map([
   ['CircleInprogressOutline', CircleInprogressOutline],
   ['CircleNotStartedOutline', CircleNotStartedOutline],
   ['ClockOutlined', ClockOutlined],
+  ['Copy', Copy],
   ['Collapse', Collapse],
   ['Correct', Correct],
   ['Delete', Delete],
