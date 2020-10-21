@@ -1,11 +1,11 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import Avatar from './Avatar';
 import OpenCloseIndicator from './OpenCloseIndicator';
 import Dropdown from './Dropdown';
 
 const ProfileDropdown = ({
-  text, open, hide, onChange, id, children, ...rest
+  text, open, hide, onChange, id, children, disableIndicator, ...rest
 }) => {
   const avatarColor = open ? 'secondary' : 'primary';
   return (
@@ -18,7 +18,7 @@ const ProfileDropdown = ({
       disableHover
       icon={
         (
-          <Fragment>
+          <>
             <Avatar
               id={`${id}-icon-button-avatar`}
               color={avatarColor}
@@ -27,11 +27,13 @@ const ProfileDropdown = ({
             >
               {text}
             </Avatar>
+            {!disableIndicator && (
             <OpenCloseIndicator
               id={`${id}-indicator`}
               open={open}
             />
-          </Fragment>
+            )}
+          </>
         )
       }
       {...rest}
@@ -45,6 +47,7 @@ ProfileDropdown.defaultProps = {
   id: 'pmui-profile-dropdown',
   open: true,
   hide: false,
+  disableIndicator: false,
   onChange: () => {}
 };
 
@@ -57,7 +60,8 @@ ProfileDropdown.propTypes = {
   hide: PropTypes.bool,
   id: PropTypes.string,
   text: PropTypes.string.isRequired,
-  onChange: PropTypes.func
+  onChange: PropTypes.func,
+  disableIndicator: PropTypes.bool
 };
 
 export default ProfileDropdown;
