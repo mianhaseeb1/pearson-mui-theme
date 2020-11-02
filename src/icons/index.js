@@ -5,6 +5,8 @@ import Archive from './Archive';
 import ArrowBack from './ArrowBack';
 import BellFilled from './BellFilled';
 import BlankCalendarOutlined from './BlankCalendarOutlined';
+import BookFilled from './BookFilled';
+import BookHalfFilled from './BookHalfFilled';
 import BookmarkFilled from './BookmarkFilled';
 import BookmarkOutlined from './BookmarkOutlined';
 import BookOutlined from './BookOutlined';
@@ -60,6 +62,7 @@ import Pdf from './Pdf';
 import PearsonLogo from './PearsonLogo';
 import Play from './Play';
 import Preview from './Preview';
+import PunchHoleLock from './PunchHoleLock';
 import Remove from './Remove';
 import RemoveCircleOutlined from './RemoveCircleOutlined';
 import ScoreOutlined from './ScoreOutlined';
@@ -80,6 +83,9 @@ import Upload from './Upload';
 import Warning from './Warning';
 import ZoomIn from './ZoomIn';
 import ZoomOut from './ZoomOut';
+
+
+
 /**
  * A Map containing all Icons
  * @author Hari Gangadharan
@@ -92,6 +98,8 @@ const icons = new Map([
   ['ArrowBack', ArrowBack],
   ['BellFilled', BellFilled],
   ['BlankCalendarOutlined', BlankCalendarOutlined],
+  ['BookFilled', BookFilled],
+  ['BookHalfFilled', BookHalfFilled],
   ['BookmarkOutlined', BookmarkOutlined],
   ['BookmarkFilled', BookmarkFilled],
   ['BookOutlined', BookOutlined],
@@ -147,6 +155,7 @@ const icons = new Map([
   ['PearsonLogo', PearsonLogo],
   ['Play', Play],
   ['Preview', Preview],
+  ['PunchHoleLock', PunchHoleLock],
   ['Remove', Remove],
   ['RemoveCircleOutlined', RemoveCircleOutlined],
   ['ScoreOutlined', ScoreOutlined],
