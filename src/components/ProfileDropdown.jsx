@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import Avatar from './Avatar';
 import OpenCloseIndicator from './OpenCloseIndicator';
@@ -18,7 +18,7 @@ const ProfileDropdown = ({
       disableHover
       icon={
         (
-          <>
+          <Fragment>
             <Avatar
               id={`${id}-icon-button-avatar`}
               color={avatarColor}
@@ -33,7 +33,7 @@ const ProfileDropdown = ({
               open={open}
             />
             )}
-          </>
+          </Fragment>
         )
       }
       {...rest}
