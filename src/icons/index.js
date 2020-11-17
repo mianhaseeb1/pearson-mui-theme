@@ -48,6 +48,7 @@ import Home from './Home';
 import HelpOutlined from './HelpOutlined';
 import HelpFilled from './HelpFilled';
 import Information from './Information';
+import KeyTakeaway from './KeyTakeaway';
 import LaunchOutlined from './LaunchOutlined';
 import ListBulleted from './ListBulleted';
 import Listen from './Listen';
@@ -75,6 +76,7 @@ import SmallCircleFilled from './SmallCircleFilled';
 import SmallCircleHalfFilled from './SmallCircleHalfFilled';
 import SmallCircleOutline from './SmallCircleOutline';
 import Sortable from './Sortable';
+import Skill from './Skill';
 import StarFilled from './StarFilled';
 import StarHalfFilled from './StarHalfFilled';
 import StarOutline from './StarOutline';
@@ -141,6 +143,7 @@ const icons = new Map([
   ['HelpFilled', HelpFilled],
   ['HelpOutlined', HelpOutlined],
   ['Information', Information],
+  ['KeyTakeaway', KeyTakeaway],
   ['LaunchOutlined', LaunchOutlined],
   ['ListBulleted', ListBulleted],
   ['Listen', Listen],
@@ -168,6 +171,7 @@ const icons = new Map([
   ['SmallCircleHalfFilled', SmallCircleHalfFilled],
   ['SmallCircleOutline', SmallCircleOutline],
   ['Sortable', Sortable],
+  ['Skill', Skill],
   ['StarFilled', StarFilled],
   ['StarHalfilled', StarHalfFilled],
   ['StarOutline', StarOutline],
